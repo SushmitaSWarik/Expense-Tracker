@@ -32,6 +32,7 @@ let addExpense=()=> {
 }
 
 
+// Show Expense
 let showExpenses=()=> {
     const displayDiv = document.getElementById("displayExpense");
     displayDiv.innerHTML = "";
