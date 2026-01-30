@@ -35,6 +35,7 @@ let addExpense=()=> {
 // Show Expense
 let showExpenses=()=> {
     const displayDiv = document.getElementById("displayExpense");
+    displayDiv.className="col-md-4 mt-3 mt-md-0 p-3"; //adding classname to div
     displayDiv.innerHTML = "";
 
     let total = 0;
