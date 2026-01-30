@@ -39,7 +39,7 @@ let showExpenses=()=> {
 
     let total = 0;
 
-    const totalHeading = document.createElement("h4");
+    const totalHeading = document.createElement("h5");
     totalHeading.innerHTML = `Total: ₹ <span id="total">0</span>`;
     displayDiv.appendChild(totalHeading);
 
